@@ -1823,10 +1823,10 @@ footer p, footer a {
     display: block;
     float: left;
     width: 99px;
-    height: 122px;
+    height: 96px;
     text-indent: -9999px;
     background: url(images/hungerlogo.png) no-repeat;
-    background-size: 98px 98px;
+    background-size: 83px 83px;
     margin-top: -1.6%;
     margin-left: 35%;
   }
