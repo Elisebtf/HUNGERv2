@@ -119,12 +119,14 @@ h1 {
 h2 {
   font-size: 2.8em;
   line-height: .9em;
+  color: #e73b68;
 }
 
 h3 {
   font-size: 1.8em;
   line-height: .9em;
   font-family: 'josef';
+  color:#1096aa
 }
 
 h4,h5,h6 {
@@ -334,8 +336,9 @@ blockquote p {
   position: fixed;
   
   z-index: 1000;
+  background-color: white;
   width: 100%;
-  height: 18%;
+  height: 22%;
   padding: 23px 0;
 /*transition*/
   -webkit-transition: all .15s linear;
@@ -379,7 +382,7 @@ blockquote p {
 }
 
 .header-home .navigation a {
-  color: #fff;
+  color: #1096aa;
   font-family: 'josef';
 }
 
@@ -474,6 +477,13 @@ blockquote p {
   
 }
 
+#maps{
+  height: 900px;
+  width: 100%;
+  text-align: center;
+  filter: grayscale(60%);
+}
+
 .navigation .sub-menu {
   position: absolute;
   z-index: 9999;
@@ -553,7 +563,7 @@ blockquote p {
 .parallax-section {
   z-index: -1;
   clear: both;
-  background-color: #e73b68;
+  background-color: #1096aa;
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -584,8 +594,10 @@ blockquote p {
 .content-header h2,
 .parallax-section .content h3,
 .content-header h3 {
-  color: #fff;
+  color: #fcc62e;
   font-family: 'soulmaze';
+  font-style: italic;
+  letter-spacing : -17px;
 }
 
 .parallax-section h2 > span,
@@ -1688,9 +1700,19 @@ footer p, footer a {
 
 @media handheld, only screen and (max-width: 767px) {
   #top-header {
-    position: absolute;
-    padding: 8px 0;
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+    width: 100%;
+    height: 26%;
+    padding: 23px 0;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    transition: all .15s linear;
   }
+
+  
 
   #uncooked {
     width: 45%;
@@ -1710,45 +1732,17 @@ footer p, footer a {
     margin: 0;
   }
 
-  .navigation ul {
-    display: none;
-    height: 100%;
-
-  }
-
-  .navigation {
-    float: none;
-  }
-
-  .navigation li {
-    width: 100%;
-  }
-
+ 
   .navigation a {
     margin-left: 0;
     width: 100% !important;
-    display: block;
+    
   }
 
-  .navigation label {
-    position: absolute;
-    display: block;
-    right: 0;
-    top: 7px;
-    color: #fff;
-    min-height: 2.25em;
-    padding: .45em;
-    font-size: 1.1em;
-    margin: 0;
-  }
 
-  .navigation label:after {
-    position: absolute;
-    right: .25em;
-    top: 0;
-    content: "\2261";
-    font-size: 1.8em;
-  }
+
+
+  
 
   .navigation input[type=checkbox]:checked ~ label:after {
     color: #fff;
@@ -1824,6 +1818,18 @@ footer p, footer a {
     padding: 1em !important;
   }
 
+  .logo {
+    display: block;
+    float: left;
+    width: 99px;
+    height: 122px;
+    text-indent: -9999px;
+    background: url(images/hungerlogo.png) no-repeat;
+    background-size: 98px 98px;
+    margin-top: -1.6%;
+    margin-left: 35%;
+  }
+
   .post-wrap .post-meta li a {
     margin: 0;
     width: 100%;
@@ -1855,7 +1861,8 @@ footer p, footer a {
   }
 
   .parallax-section .content h2, .content-header h2 {
-    font-size: 1.2em;
+    font-size: 2.6em;
+    letter-spacing: 1px;
   }
 
   .parallax-section .content p, .top-slider .content-header p, .home-slider .content p {
