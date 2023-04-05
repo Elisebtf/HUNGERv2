@@ -193,6 +193,7 @@ blockquote p {
   display: inline-block;
   margin: .8em 0;
   padding: .5em 1.6em;
+  font-family: 'josef';
   color: #fff;
   font-size: .8em;
 /*border-radius*/
