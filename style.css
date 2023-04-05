@@ -1734,8 +1734,9 @@ footer p, footer a {
 
  
   .navigation a {
-    margin-left: 0;
+    
     width: 100% !important;
+    font-size: 13px;
     
   }
 
