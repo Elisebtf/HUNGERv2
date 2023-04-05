@@ -90,6 +90,7 @@ body {
 
 p{
   font-family: 'josef';
+  text-align: justify;
 }
 
 body, input, textarea {
@@ -131,7 +132,7 @@ h3 {
 
 h4,h5,h6 {
   font-size: 1.125em;
-  line-height: .5em;
+  
 }
 
 blockquote {
@@ -1823,10 +1824,10 @@ footer p, footer a {
     display: block;
     float: left;
     width: 99px;
-    height: 96px;
+    height: 122px;
     text-indent: -9999px;
     background: url(images/hungerlogo.png) no-repeat;
-    background-size: 83px 83px;
+    background-size: 98px 98px;
     margin-top: -1.6%;
     margin-left: 35%;
   }
