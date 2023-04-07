@@ -127,7 +127,9 @@ h3 {
   font-size: 1.8em;
   line-height: .9em;
   font-family: 'josef';
-  color:#1096aa
+  color:#1096aa;
+  margin-left: 30px;
+    margin-right: 36px;
 }
 
 h4,h5,h6 {
@@ -193,8 +195,8 @@ blockquote p {
   display: inline-block;
   margin: .8em 0;
   padding: .5em 1.6em;
-  font-family: 'josef';
   color: #fff;
+  font-family: 'josef';
   font-size: .8em;
 /*border-radius*/
   -webkit-border-radius: 30px;
@@ -581,7 +583,7 @@ blockquote p {
 }
 
 .parallax-section .content-header, .home-slider .content-header {
-  padding: 205px 0 130px;
+  padding: 205px 0 200px;
 }
 
 .parallax2 .content {
@@ -810,6 +812,10 @@ blockquote p {
   background: #bfbfbf;
   background-color: transparent;
   transition: all .13s linear;
+}
+
+span{
+  font-family: 'josef';
 }
 
 .header-carousel.owl-theme .owl-controls .owl-page.active span,
@@ -1616,13 +1622,13 @@ footer p, footer a {
   width: 150px;
 }
 .loader .bar {
-  background-color: #69C98C;
+  background-color: #1096aa;
   font-size: 0;
-  height: 6px;
+  height: 8px;
   border-radius: 3px;
   opacity: 0;
   width: 25px;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 1.5s;
   -webkit-animation-fill-mode: both;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-name: subtleIn;
@@ -1633,19 +1639,19 @@ footer p, footer a {
   -webkit-animation-delay: 0s;
 }
 .loader .bar:nth-child(2) {
-  background-color: #1abc9c;
+  background-color: #fcc62e;
   -webkit-animation-delay: .3s;
 }
 .loader .bar:nth-child(3) {
-  background-color: #1AB4BC;
+  background-color: #e73b68;
   -webkit-animation-delay: .6s;
 }
 .loader .bar:nth-child(4) {
-  background-color: #1AA1BC;
+  background-color: #16a085;
   -webkit-animation-delay: .9s;
 }
 .loader .bar:nth-child(5) {
-  background-color: #1A7EBC;
+  background-color: #1096aa;
   -webkit-animation-delay: 1.2s;
 }
 
@@ -1821,6 +1827,10 @@ footer p, footer a {
     padding: 1em !important;
   }
 
+  .team-social p {
+    display: none;
+}
+
   .logo {
     display: block;
     float: left;
@@ -1832,6 +1842,13 @@ footer p, footer a {
     margin-top: -1.6%;
     margin-left: 35%;
   }
+
+  p {
+    font-family: 'josef';
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 36px;
+}
 
   .post-wrap .post-meta li a {
     margin: 0;
